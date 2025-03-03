@@ -1,7 +1,5 @@
-<script>
+<script lang='ts'>
 	export let used
-
-	// THIS WARNING GETS LOGGED BY svelte-preprocess-esbuild, WHICH IS UNEXPECTED
 	// svelte-ignore export_let_unused
 	export let unused
 </script>
