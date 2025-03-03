@@ -47,10 +47,6 @@ const main = async() => {
 
 	await build()
 
-	await new Promise(resolve => setTimeout(resolve, 1000))
-
-	await build()
-
 	return context.dispose()
 }
 
